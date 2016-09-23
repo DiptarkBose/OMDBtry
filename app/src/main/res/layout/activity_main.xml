@@ -34,5 +34,8 @@
 
         android:text="Search"
         android:id="@+id/button"/>
->>>>>>> 711602b7f18475f86e0879dac83aeeac9e4c6fe5
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neem ka patta kadwa hai, "/>
 </LinearLayout>
