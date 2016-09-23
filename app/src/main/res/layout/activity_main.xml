@@ -8,13 +8,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
 
+
+
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.omdbtry.MainActivity">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:textSize="30sp"
         android:layout_marginTop="50dp"
+
+
         android:inputType="textNoSuggestions"
         android:id="@+id/editText"
         />
@@ -22,6 +28,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText"
+
         android:id="@+id/search"
         android:text="Search"/>
+
+        android:text="Search"
+        android:id="@+id/button"/>
+>>>>>>> 711602b7f18475f86e0879dac83aeeac9e4c6fe5
 </LinearLayout>
